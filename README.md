@@ -66,3 +66,22 @@ The subscriber will print messages received:
 [INFO] [subscriber_node]: I heard: 'Hello World : 1'
 [INFO] [subscriber_node]: I heard: 'Hello World : 2'
 
+# Run Using Docker (Recommended)
+
+Docker builds the ROS 2 workspace and runs both nodes automatically.
+
+Prerequisites
+
+Docker installed
+
+Internet connection (to pull ROS image)
+
+1. Build Docker image
+
+From the repository root:
+
+docker build -t sub_pub_jazzy .
+
+2. Run container (single command)
+docker run --rm sub_pub_jazzy
+
