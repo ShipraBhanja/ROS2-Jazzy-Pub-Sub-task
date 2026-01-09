@@ -85,3 +85,9 @@ docker build -t sub_pub_jazzy .
 2. Run container (single command)
 docker run --rm sub_pub_jazzy
 
+
+
+
+
+## Ready for review, please check the repo.
+
